@@ -11,6 +11,7 @@
         <module>01-Data-Structure-Implementation</module>
         <module>02-Algorithm-And-Data-Structure-Foundation</module>
         <module>03-Leetcode-Answer</module>
+        <module>common</module>
     </modules>
     <packaging>pom</packaging>
 
