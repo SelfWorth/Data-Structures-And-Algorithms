@@ -29,6 +29,28 @@ public class SortTestHelper {
     }
 
     /**
+     * 生成有序的数组
+     * @param n 数组总数
+     * @param swapCount 交换次数
+     * @return
+     */
+    public static Integer[] generateNearlyOrderedArray(int n,int swapCount) {
+        Integer[] nums = new Integer[n];
+        for (int i = 0; i < n; i++) {
+            nums[i] = i;
+        }
+
+        for (int i = 0; i < swapCount; i++) {
+            int randomIndex1 = (int) (Math.random() * n);
+            int randomIndex2 = (int) (Math.random() * n);
+            Integer temp = nums[randomIndex1];
+            nums[randomIndex1] = nums[randomIndex2];
+            nums[randomIndex2] = temp;
+        }
+        return nums;
+    }
+
+    /**
      * 打印数组
      * @param arrs
      */

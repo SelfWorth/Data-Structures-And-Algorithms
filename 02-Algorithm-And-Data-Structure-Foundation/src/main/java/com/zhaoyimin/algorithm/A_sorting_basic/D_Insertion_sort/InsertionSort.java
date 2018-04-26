@@ -3,6 +3,7 @@ package com.zhaoyimin.algorithm.A_sorting_basic.D_Insertion_sort;
 import com.zhaoyimin.util.SortTestHelper;
 
 /**
+ * 插入排序
  * Created by zhaoyimin on 2018/4/25.
  */
 public class InsertionSort {

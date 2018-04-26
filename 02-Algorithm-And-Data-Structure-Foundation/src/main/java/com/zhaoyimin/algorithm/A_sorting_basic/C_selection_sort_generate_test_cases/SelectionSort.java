@@ -42,6 +42,5 @@ public class SelectionSort {
         Integer[] nums = SortTestHelper.generateRandomArray(100000,0,10000);
 
         SortTestHelper.testSort("com.zhaoyimin.algorithm.A_sorting_basic.C_selection_sort_generate_test_cases.SelectionSort","sort",nums);
-
     }
 }
